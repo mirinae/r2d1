@@ -35,6 +35,14 @@ env:
 	#
 
 
+
+### for custom bootanimation
+bootani_build:
+	cd bootanimation; ./bootanimation.sh build
+
+bootani_push:
+	cd bootanimation; ./bootanimation.sh push
+
 ### misc management rules
 conn_r2d1:
 	adb -s $(DEV_R2D1) shell
