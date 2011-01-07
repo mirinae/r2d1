@@ -1,2 +1,30 @@
+R2D1
+====
+
 for my first android device, SGS (shw-m110s) called r2d1.
+
+
+
+TODO
+----
+
+* make zImage with my own init process.
+ - build my own initramfs.
+ - implement initramfs generator or zImage generator.
+ - add kernel management feature to mirinae swiss army knife.
+ - add kernel information into msak's info page.
+* make lagfix updater convert to/between ext2,3,4 and revert action.
+ - implement lagfix updater.
+ - add lagfix feature to mirinae swiss army knife.
+ - add lagfix information into msak's info page.
+* make data/dbdata reset facility.
+ - implement this feature.
+ - add it to mirinae swiss army knife.
+* find solution for dbdata.
+
+
+
+Changelog
+---------
+
 
